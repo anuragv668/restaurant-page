@@ -15,7 +15,18 @@ nav {
   align-items: center;
 }
 
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-head {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about-head {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -25,6 +36,13 @@ nav {
 }
 
 .home-desc {
+  font-size: 1.1rem;
+  font-style: italic;
+  width: 60vw;
+  text-align: center;
+}
+
+.about-desc {
   font-size: 1.1rem;
   font-style: italic;
   width: 60vw;

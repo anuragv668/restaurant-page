@@ -1,4 +1,4 @@
-import Image from "./restaurant.jpg";
+import Image from "./images/restaurant.jpg";
 
 const homeContainer = document.createElement('div');
 homeContainer.classList.add('homecontainer');
