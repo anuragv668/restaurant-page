@@ -8,7 +8,7 @@ menuContainer.classList.add('menucontainer');
 
 const menuHead = document.createElement('div');
 menuHead.textContent = 'Menu';
-menuHead.classList.add('menuhead');
+menuHead.classList.add('head');
 menuContainer.appendChild(menuHead);
 
 const images = [burger, pizza, coke, fries];

@@ -5,7 +5,7 @@ homeContainer.classList.add('homecontainer');
 
 const homeHead = document.createElement('div');
 homeHead.textContent = "Restaurant";
-homeHead.classList.add('home-head');
+homeHead.classList.add('head');
 homeContainer.appendChild(homeHead);
 
 const homeImage = document.createElement('img');

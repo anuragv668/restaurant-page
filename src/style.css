@@ -7,32 +7,50 @@
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 10vh;
+}
+
+nav > button {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  height: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .homecontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
+  gap: 20px;
 }
 
 .aboutcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
+  gap: 20px;
 }
 
-.home-head {
-  font-size: 2rem;
+.head {
+  font-size: 3.2rem;
   font-weight: 700;
-}
-
-.about-head {
-  font-size: 2rem;
-  font-weight: 700;
+  text-align: center;
 }
 
 .home-image {
-  height: 50vh;
+  height: 250px;
+  border-radius: 25%;
 }
 
 .home-desc {
@@ -47,4 +65,30 @@ nav {
   font-style: italic;
   width: 60vw;
   text-align: center;
+}
+
+.menucontainer {
+  padding: 30px 25%;
+  display: grid;
+  grid-template: 5vh 1fr / 1fr 1fr;
+  gap: 20px;
+}
+
+.menucontainer > .head {
+  grid-area: 1/1/2/3;
+}
+
+.foodcontainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.menuimage {
+  height: 200px;
+}
+
+.menuprice {
+  font-size: 1.2rem;
+  font-weight: 700;
 }

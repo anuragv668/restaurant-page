@@ -3,7 +3,7 @@ aboutContainer.classList.add('aboutcontainer');
 
 const aboutHead = document.createElement('div');
 aboutHead.textContent = 'About';
-aboutHead.classList.add('about-head');
+aboutHead.classList.add('head');
 aboutContainer.appendChild(aboutHead);
 
 const aboutBody = document.createElement('div');
